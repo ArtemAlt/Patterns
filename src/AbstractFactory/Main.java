@@ -4,6 +4,8 @@ import AbstractFactory.factories.LinuxFactoryImp;
 import AbstractFactory.factories.WindowsFactoryImp;
 import AbstractFactory.interfaces.AbstractFactory;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Locale;
 
 public class Main {
@@ -31,7 +33,9 @@ public class Main {
     public static void main(String[] args) {
         Application application = config();
         application.paint();
+
     }
+
 
 
 }
